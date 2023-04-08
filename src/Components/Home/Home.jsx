@@ -7,11 +7,14 @@ const Home = () => {
 
             <div className='homeText'>
                 <span className='spanText'>
-                    A TEAM PROFISSIONAL TRAVEL EXPERTS
+                    PORTFOLIO PROFISSIONAL <br />
+                    <span>
+                        AND BLOGPOST
+                    </span>
                 </span>
 
                 <div className="homeTitle">
-                    Trust <strong> Our Experience</strong>
+                    Trust Your Vibes <strong>  Energy never lies !</strong>
                 </div>
 
                 <div className="btn">Get in Touch</div>

@@ -15,13 +15,12 @@ const App = () => {
       <Home />
       <Cards />
       <Tour />
-      <Discount />
-      <Review />
-   {/*   
-      
-     
       <Staff />
-      <Footer /> */}
+      {/*  <Discount /> */}
+      <Review />
+      <Footer />
+
+
     </>
   )
 }

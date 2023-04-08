@@ -5,55 +5,72 @@
     --greyColor: #f7f7f7;
 }
 
-.review {
+.cards {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
     background: var(--greyColor);
+    z-index: 5000;
 
-    .reviewContainer {
-        margin-top: 4rem;
-        gap: 4rem;
+    .cardContainer {
+        .singleCard {
+            transform: translateY(-50px);
+            height: 250px;
+            width: 100%;
+            position: relative;
+            transition: .5s;
 
-        .singleReview {
-            position: inherit;
-            background: white;
-            box-shadow: 0 3px 5px rgb(218, 219, 218);
-            padding: 1.5rem;
-            text-align: center;
-            border-radius: 10px;
-            transition: .4s ease;
-
-            &:hover {
-                transform: translate(-10px);
+            &::after {
+                content: '';
+                position: absolute;
+                z-index: 2;
+                height: 100%;
+                width: 100%;
+                bottom: 0;
+                background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.593));
+                border-radius: 10px;
             }
 
             .imgDiv {
-                position: absolute;
-                height: 60%;
-                width: 50%;
-                right: 40%;
-                left: 50%;
-                top: -25%;
-                border-radius: 50%;
+                height: 100%;
+                border-radius: 10px;
                 overflow: hidden;
-                transform: translateX(-50%);
-                border: 10px solid white;
             }
 
-            p {
-                padding: 1rem;
-                line-height: 1.3rem;
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                border-radius: 10px;
             }
+        }
 
-            .name{
-                color: var(--primaryColor);
-                font-weight: 600;
-            }
+        .textDiv {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translate(-50%);
+            color: white;
+            z-index: 5;
+        }
+    }
 
+    .spanText {
+        text-align: center;
+        transform: translateY(-50px);
+        padding-top: 1.5rem;
+        margin: auto;
+        gap: -5rem;
+
+    }
+
+    &:hover{
+        font-weight: 600;
+
+        .icon{
+            transition: .4s;
+            transform: translate(10px);
         }
     }
 }
-
-
-
-
-
-

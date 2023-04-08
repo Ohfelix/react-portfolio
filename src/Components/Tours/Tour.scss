@@ -60,9 +60,13 @@
                     }
 
                     .stars {
-                        color: rgb(245, 176, 79);
+                        color: rgb(219, 138, 26);
 
                         .icon {
+                            font-size: 14px;
+                        }
+                        .iconblack {
+                            color: gray;
                             font-size: 14px;
                         }
                     }
@@ -81,8 +85,8 @@
                     }
                 }
 
-                p {
-
+                small {
+                    font-size: 500;
                     padding-bottom: 1rem;
                     color: black;
                 }

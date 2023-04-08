@@ -1,9 +1,9 @@
 import React from 'react'
 import './Tour.scss'
 
-import TourIMage from '../Assets/surf.jpg'
 import HobbieIMage from '../Assets/futebol.jpg'
-import HobbieIMage2 from '../Assets/tecnologia.jpg'
+import HobbieIMage1 from '../Assets/engenharia.jpg'
+import HobbieIMage2 from '../Assets/chess.jpg'
 import { AiFillStar } from 'react-icons/ai'
 
 const Tour = () => {
@@ -17,11 +17,11 @@ const Tour = () => {
 
                     <div className='singleTour grid'>
                         <div className="imgDiv">
-                            <img src={TourIMage} alt="" />
+                            <img src={HobbieIMage} alt="" />
                         </div>
                         <div className="tourInfo">
                             <span className="tourTitle">
-                                LyfeStyle
+                               Futebol de Domingo
                             </span>
                             <div className='stars_review flex'>
                                 <div className="stars">
@@ -29,8 +29,8 @@ const Tour = () => {
                                     <AiFillStar className='icon' />
                                     <AiFillStar className='icon' />
                                     <AiFillStar className='icon' />
-                                    <AiFillStar className='icon' />
-                                    <AiFillStar className='icon' />
+                                    <AiFillStar className='iconblack' />
+                                  
                                 </div>
                             </div>
                             <div className='textReview'>
@@ -38,11 +38,11 @@ const Tour = () => {
                                 2 Custumer review
                             </small> */}
                                 <small>
-                                    A cultura surfstyle é bastante marcada pelo esporte do surf, que é uma paixão minha. Mas, para além disso, ele engloba todo um estilo de vida que valoriza a praia, o sol, o mar, o contato com a natureza, a música e a arte. Os praticantes do surfstyle são muitas vezes inspirados pela liberdade e pela leveza da vida ao ar livre, e buscam um estilo de vida mais descontraído e livre.
+                                    A chamada pelada. Um dos meus hobbies favoritos é jogar futebol com meus amigos de longa data aos domingos. Essa atividade não só me permite manter um estilo de vida ativo e saudável, mas também me dá a oportunidade de socializar e me divertir com pessoas que conheço há anos. Jogar futebol é uma paixão que me permite desconectar da rotina e me divertir com algo que amo fazer. 
                                 </small>
 
                             </div>
-                            <button className='btn'>Buy this Tour</button>
+                           {/*  <button className='btn'>Buy this Tour</button> */}
                             {/*    <span className='price'>
                                 R$799,99
                             </span> */}
@@ -50,11 +50,11 @@ const Tour = () => {
                     </div>
                     <div className='singleTour grid'>
                         <div className="imgDiv">
-                            <img src={HobbieIMage} alt="" />
+                            <img src={HobbieIMage1} alt="" />
                         </div>
                         <div className="tourInfo">
                             <span className="tourTitle">
-                                Futebol de domingo
+                                Engenharia de Software
                             </span>
                             <div className='stars_review flex'>
                                 <div className="stars">
@@ -71,11 +71,11 @@ const Tour = () => {
                                 2 Custumer review
                             </small> */}
                                 <small >
-                                    A cultura surfstyle é bastante marcada pelo esporte do surf, que é uma paixão minha. Mas, para além disso, ele engloba todo um estilo de vida que valoriza a praia, o sol, o mar, o contato com a natureza, a música e a arte. Os praticantes do surfstyle são muitas vezes inspirados pela liberdade e pela leveza da vida ao ar livre, e buscam um estilo de vida mais descontraído e livre.
+                                Como estudante de Engenharia de Software, estou imerso em um mundo de tecnologia, codificação e desenvolvimento de software. Essa disciplina me proporciona uma compreensão profunda e abrangente de como os sistemas de software são projetados, desenvolvidos, testados e mantidos. Estou sempre buscando aprender novas linguagens de programação e tecnologias emergentes para aprimorar minhas habilidades e me manter atualizado em um campo em constante evolução. Além disso, a Engenharia de Software também me permite desenvolver soluções criativas para resolver problemas complexos e melhorar a vida das pessoas por meio de aplicativos, sistemas e programas inovadores. Estou animado para explorar as possibilidades infinitas que esse campo tem a oferecer e contribuir para um futuro mais conectado e tecnologicamente avançado.
                                 </small>
 
                             </div>
-                            <button className='btn'>Buy this Tour</button>
+                         {/*    <button className='btn'>Buy this Tour</button> */}
                             {/*    <span className='price'>
                                 R$799,99
                             </span> */}
@@ -87,7 +87,7 @@ const Tour = () => {
                         </div>
                         <div className="tourInfo">
                             <span className="tourTitle">
-                                Tecnologia e Empreendedorismo
+                            Jogar Xadrez
                             </span>
                             <div className='stars_review flex'>
                                 <div className="stars">
@@ -95,8 +95,8 @@ const Tour = () => {
                                     <AiFillStar className='icon' />
                                     <AiFillStar className='icon' />
                                     <AiFillStar className='icon' />
-                                    <AiFillStar className='icon' />
-                                    <AiFillStar className='icon' />
+                                    <AiFillStar className='iconblack' />
+                                    <AiFillStar className='iconblack' />
                                 </div>
                             </div >
                             {/*    <small className='custReview'>
@@ -104,11 +104,11 @@ const Tour = () => {
                             </small> */}
                             <div className='textReview'>
                                 <small >
-                                    A cultura surfstyle é bastante marcada pelo esporte do surf, que é uma paixão minha. Mas, para além disso, ele engloba todo um estilo de vida que valoriza a praia, o sol, o mar, o contato com a natureza, a música e a arte. Os praticantes do surfstyle são muitas vezes inspirados pela liberdade e pela leveza da vida ao ar livre, e buscam um estilo de vida mais descontraído e livre.
+                                Recentemente, descobri o xadrez e me apaixonei por esse jogo de tabuleiro desafiador. Embora eu ainda seja um iniciante, estou empolgado em aprender novas estratégias e táticas para melhorar meu jogo. O xadrez é um hobby fascinante que requer concentração, paciência e habilidades analíticas, e é incrivelmente gratificante quando você consegue antecipar e bloquear os movimentos do seu oponente. Estou ansioso para continuar praticando e melhorando minhas habilidades neste jogo intrigante e fascinante.
                                 </small>
 
                             </div>
-                            <button className='btn'>Buy this Tour</button>
+                            <button className='btn'>Jogue contra mim </button>
                             {/*     <span className='price'>
                                 R$799,99
                             </span> */}

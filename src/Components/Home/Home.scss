@@ -9,7 +9,7 @@
     height: 90vh;
     width: 100%;
     padding: 5rem 1.5rem;
-    background: linear-gradient(rgba(0, 0, 1, 0.42), rgba(0, 0, 1.0, 0.549)), url('../Assets/praia.jpg');
+    background: linear-gradient(rgba(0, 0, 1, 0.42), rgba(0, 0, 1.0, 0.549)), url('../Assets/perfil.jpeg');
     background-position: center;
     object-fit: cover;
     background-size: cover;
@@ -24,9 +24,10 @@
     }
 
     .homeTitle {
+      
         color: white;
-        padding: 2rem 0;
-        font-size: 40px;
+        padding: 4rem 1rem 14rem;
+        font-size: 28px;
 
         strong {
             font-weight: 800;

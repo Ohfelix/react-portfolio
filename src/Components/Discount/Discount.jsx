@@ -10,14 +10,14 @@ const Discount = () => {
                 <video src={video} autoPlay loop muted typeof='mp4'></video>
                 <div className="textDiv">
                     <span className="title">
-                        Sign Up for 35% Discount
+                     Meu proximo objetivo é apreder a surfar !
                     </span>
-                    <p>
+                   {/*  <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illo non numquam distinctio quisquam saepe. Quo eveniet consequatur perspiciatis mollitia distinctio pariatur. Perferendis quod iure dicta saepe tenetur aspernatur sunt!
-                    </p>
+                    </p> */}
                     <div className='input_btn flex'>
-                        <input type="text" placeholder='Enter your Email' />
-                        <button className='btn'>Subscribe</button>
+                      {/*   <input type="text" placeholder='Enter your Email' />
+                        <button className='btn'>Subscribe</button> */}
                     </div>
                 </div>
             </div>

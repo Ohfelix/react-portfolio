@@ -103,3 +103,43 @@
     }
 
 }
+
+@media screen and (min-width:769px){
+    .menuDiv {
+        .menuList{
+            display: flex;
+            flex-direction: row;
+            padding: 0 .5rem;
+            
+            
+            .navItem{
+                padding: 0 .5rem;
+
+                .menuLink {
+                    color: white;
+                    font-size: 14px;
+                    &:hover{
+                        color: var(--secHoverColor);
+                    }
+                }
+            }
+        }
+    }
+}
+.closeNavbar, .toggleNavbar{
+    display: none;
+}
+.socialIcons{
+    gap: .5rem;
+
+
+    .icon{
+        color: white;
+        font-size: 18px;
+    }
+}
+
+
+
+
+

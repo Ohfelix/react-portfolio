@@ -1,8 +1,10 @@
 import React from 'react'
 import './Review.scss'
 
-import user1 from '../Assets/persons.jpg'
 
+import cardImage from '../Assets/dogs.jpg'
+import cardImage1 from '../Assets/dogs1.jpg'
+import cardImage2 from '../Assets/dogs2.jpg'
 
 const Review = () => {
     return (
@@ -11,21 +13,31 @@ const Review = () => {
                 <span className='secTitle'>
                     What People Say
                 </span>
-                <div className='reviewContainer container grid'>
-                    <div className="singleReview">
-                        <div className='imgDiv'>
-                            <img src={user1} />
-                        </div>
-
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos officiis tempora accusamus fuga ratione vel suscipit, tempore dolor, vitae dolorem eaque sit? Quos, libero iste! Est tempore facere totam omnis.
-                        </p>
-                        <div className='name'>
-                            Name Person
-                        </div>
-
+                <div className='cards'>
+            <div className='cardContainer container grid'>
+                <div className='singleCard'>
+                    <div className='imgDiv'>
+                        <img src={cardImage} alt="" />
                     </div>
+                    <h4 className="textDiv"> Pluto</h4>
                 </div>
+                <div className='singleCard'>
+                    <div className='imgDiv'>
+                        <img src={cardImage1} alt="" />
+                    </div>
+                    <h4 className="textDiv">   Beatiful Dogs</h4>
+                </div>
+                <div className='singleCard'>
+                    <div className='imgDiv'>
+                        <img src={cardImage2} alt="" />
+                    </div>
+                    <h4 className="textDiv">  Beatiful Dogs</h4>
+                </div>
+            </div>
+          {/*   <div className="spantext">
+                Outers Services <AiOutlineSwapRight className='icon' />
+            </div> */}
+        </div>
             </div>
         </div>
     )

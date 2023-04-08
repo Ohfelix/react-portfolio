@@ -15,7 +15,7 @@ const Cards = () => {
                     <div className='imgDiv'>
                         <img src={cardImage} alt="" />
                     </div>
-                    <h4 className="textDiv"> Beatiful Dogs</h4>
+                    <h4 className="textDiv"> Pluto</h4>
                 </div>
                 <div className='singleCard'>
                     <div className='imgDiv'>
@@ -30,9 +30,9 @@ const Cards = () => {
                     <h4 className="textDiv">  Beatiful Dogs</h4>
                 </div>
             </div>
-            <div className="spantext">
+          {/*   <div className="spantext">
                 Outers Services <AiOutlineSwapRight className='icon' />
-            </div>
+            </div> */}
         </div>
     )
 }
