@@ -23,18 +23,7 @@
   }
   .header {
   }
-<<<<<<< HEAD
-  .hero__section {
-    @layer bg-image-[url('./assets/images/background.png')bg-no-repeat bg-center bg-cover];
-  }
-=======
- /*  .hero__section {
-    @layer bg-image-[url('./assets/images/background.png')bg-no-repeat bg-center bg-cover];
-  } */
->>>>>>> b7c4279 (diretorionew2)
-/*   .cardStyle {
-    @apply border-2 border-borderColor rounded-lg shadow-md hover:shadow-xl transition duration-500 ease-in  lg:gap-5 lg:gap-[30px];
-  } */
+
 }
 
 @media only screen and (max-width: 1024px) {
