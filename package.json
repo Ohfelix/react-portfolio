@@ -1,7 +1,7 @@
 {
-  "name": "my-project",
+  "homepage": "https://Ohfelix.github.io/react-portfolio",
+  "name": "react-portfolio",
   "version": "0.0.0",
-  "homepage": "https://Ohfelix.github.io/page-project/",
   "private": true,
   "type": "module",
   "scripts": {
